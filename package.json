@@ -1,0 +1,27 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dina-ideas2it@github.com/dina-ideas2it/react-starter.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack"
+  ],
+  "author": "dina-ideas2it",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dina-ideas2it/react-starter/issues"
+  },
+  "homepage": "https://github.com/dina-ideas2it/react-starter#readme",
+  "dependencies": {
+    "webpack": "^2.4.1"
+  }
+}
