@@ -1,9 +1,10 @@
-var webpack = require('webpack'),
+const webpack = require('webpack'),
   path = require('path'),
   htmlWebPackPlugin = require('html-webpack-plugin'),
 
   BUILD_DIR = path.resolve(__dirname, './src/client/public/'),
   APP_DIR = path.resolve(__dirname, './src/client/app/'),
+
   htmlWebPackPluginConfig = new htmlWebPackPlugin({
     'template': './src/client/app/index.html',
     'filename': 'index.html',
